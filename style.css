@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0
+
+}
+:root{
+    --color-base:#21398b
+}
+body{
+    background-color: #f8f9fc;
+    /* overflow-x: hidden; */ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    text-align: left;
+    background-color: var(--color-base);
+    color: white;
+    padding-left: 10px;
+    
+}
+header h1{
+    padding: 5px;
+}
+header > nav a{
+    text-decoration: none;    
+    color: white;
+    padding: 5px;
+
+}
+.list {
+    margin-top: 15px;
+    /* margin-right: 5px; */
+    padding-right: 15px;
+}
+
+.Bienvenido {
+    background-image: url(a.jpg);
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 20vh;
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Bienvenido section{
+    background-color:rgb(0, 0, 0,0.6) ;
+    text-align: center;
+    color: white;
+    color: var(#21398b);
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    /* margin-left: auto;
+    margin-right: auto; */
+    width:  500px;
+    
+
+}
+
+.Sobre {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    
+
+}
+.Sobre h2{
+    color: #21398b;
+}
+.Sobre p{
+    color: black;
+}
+.Servicios{
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+.Servicios h2 {
+    color: #21398b;
+}
+.Servicios p{
+    color: black;
+}
+.Contacto{
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.Contacto h2{
+    color: #21398b;
+    
+}
+.Contacto p{
+    color: black;
+}
+
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer {
+    background-color:#21398b ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    
+  
+}
+.footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
